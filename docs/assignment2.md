@@ -2,6 +2,42 @@
 
 ## Transfer fee (`FeesCalculator.calculateTransferFee`): basis path testing
 
+### Process
+
+1. **Build the control-flow graph** from the code as it is, one node per executable statement,
+   named by its source line number.
+2. **Compute the cyclomatic complexity** V(G) in three independent ways to fix the number of basis
+   paths we need (16).
+3. **Derive a basis set** of 16 linearly independent paths with McCabe's baseline method, and check
+   that each path adds a new edge and that the set covers every edge.
+4. **Write down the input conditions** that force execution down each path.
+5. **Map each path to the specification rule** whose conditions it satisfies. That rule, not the
+   code, gives the expected fee.
+6. **Pick one test case per path** from its conditions, compute the expected fee from the
+   specification, and run it as a JUnit test against `calculateTransferFee`.
+
+### Assumptions
+
+- **TA1 - Code under test.** The CFG is drawn from `src/main/java/bank/utils/FeesCalculator.java`
+  as provided in the course repository (commit `a617ec3`); all line numbers refer to that file.
+- **TA2 - Node granularity.** One node per executable statement. Line 77 (`double feePercentage;`)
+  declares but does not assign, so it is merged into the entry node 75. Comments, blank lines and
+  braces are not nodes. Lines 142 and 144 are kept as separate nodes; merging them would remove one
+  node and one edge and leave V(G) unchanged.
+- **TA3 - Simple predicates.** Every decision tests a single condition (no `&&` or `||`), so no
+  decision has to be split into several nodes before counting.
+- **TA4 - Feasibility.** The four parameters are independent inputs with no validation in the
+  method, so every combination of decision outcomes, and therefore every basis path, is feasible.
+- **TA5 - Valid inputs only.** Test inputs are valid values (amount > 0, balances ≥ 0). The method
+  has no branches for invalid input, so such values would add no new path.
+- **TA6 - Values away from boundaries.** Basis path testing exercises paths, not boundaries. Each
+  test value is chosen well inside its condition (e.g. 50 for "amount < 100") so that a test
+  exposes faults on its path, not threshold faults; the thresholds were the subject of
+  Assignment 1.
+- **TA7 - Oracle.** The expected fee is `amount × rate`, where the rate comes from the Assignment 2
+  specification, converted from a percentage to a fraction (0.1% = 0.001). Fees are compared with
+  a tolerance of 1e-9 to allow for floating-point rounding.
+
 ### Control-flow graph
 
 Each node is named by its line number in `src/main/java/bank/utils/FeesCalculator.java`.
@@ -176,3 +212,34 @@ not from the code.
 | P14 | false | ≥ 100 | ≥ 1000 | < 1000 |
 | P15 | false | ≥ 100 | < 1000 | ≥ 1000 |
 | P16 | false | ≥ 100 | ≥ 1000 | ≥ 1000 |
+
+### Specification rule for each path
+
+Each path's conditions match exactly one rule of the Assignment 2 transfer specification
+("The business logic: fee requirements", Transfer). That rule gives the expected rate used as the
+test oracle (TA7).
+
+| Path | Specification rule | Expected rate |
+|---|---|---|
+| P1 | Student, amount < $100, from < $1,000, to < $1,000 | 0.1% (0.001) |
+| P2 | Non-student, amount < $100, from < $1,000, to < $1,000 | 0.2% (0.002) |
+| P3 | Student, amount ≥ $100, from < $1,000, to < $1,000 | 0.05% (0.0005) |
+| P4 | Student, amount < $100, from ≥ $1,000, to < $1,000 | 0.5% (0.005) |
+| P5 | Student, amount < $100, from < $1,000, to ≥ $1,000 | 0.05% (0.0005) |
+| P6 | Student, amount < $100, from ≥ $1,000, to ≥ $1,000 | 0.25% (0.0025) |
+| P7 | Student, amount ≥ $100, from ≥ $1,000, to < $1,000 | 0.25% (0.0025) |
+| P8 | Student, amount ≥ $100, from < $1,000, to ≥ $1,000 | 0.025% (0.00025) |
+| P9 | Student, amount ≥ $100, from ≥ $1,000, to ≥ $1,000 | 0.125% (0.00125) |
+| P10 | Non-student, amount ≥ $100, from < $1,000, to < $1,000 | 0.1% (0.001) |
+| P11 | Non-student, amount < $100, from ≥ $1,000, to < $1,000 | 1% (0.01) |
+| P12 | Non-student, amount < $100, from < $1,000, to ≥ $1,000 | 0.1% (0.001) |
+| P13 | Non-student, amount < $100, from ≥ $1,000, to ≥ $1,000 | 0.5% (0.005) |
+| P14 | Non-student, amount ≥ $100, from ≥ $1,000, to < $1,000 | 0.5% (0.005) |
+| P15 | Non-student, amount ≥ $100, from < $1,000, to ≥ $1,000 | 0.05% (0.0005) |
+| P16 | Non-student, amount ≥ $100, from ≥ $1,000, to ≥ $1,000 | 0.25% (0.0025) |
+
+### Test cases
+
+One test case per basis path (TC-T01 for P1 … TC-T16 for P16), with concrete inputs taken from the
+path conditions above and the expected fee computed from the rate in the specification table.
+This table is added with the transfer JUnit tests (tasks T3 and T4).
