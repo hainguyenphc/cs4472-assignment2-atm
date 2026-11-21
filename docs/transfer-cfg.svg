@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2410 1053" width="2410" height="1053" font-family="Helvetica, Arial, sans-serif">
+<title>calculateTransferFee control-flow graph</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#444"/></marker></defs>
+<rect width="2410" height="1053" fill="#ffffff"/>
+<line x1="1205.0" y1="82.0" x2="1205.0" y2="152.0" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<path d="M1100.0,190 L605.0,190 L605.0,282.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="1086.0" y="184" font-size="14" font-weight="bold" text-anchor="middle" fill="#1b7a3d">T</text>
+<path d="M1310.0,190 L1805.0,190 L1805.0,282.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="1324.0" y="184" font-size="14" font-weight="bold" text-anchor="middle" fill="#b3261e">F</text>
+<path d="M500.0,320 L305.0,320 L305.0,412.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="486.0" y="314" font-size="14" font-weight="bold" text-anchor="middle" fill="#1b7a3d">T</text>
+<path d="M710.0,320 L905.0,320 L905.0,412.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="724.0" y="314" font-size="14" font-weight="bold" text-anchor="middle" fill="#b3261e">F</text>
+<path d="M200.0,450 L155.0,450 L155.0,542.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="186.0" y="444" font-size="14" font-weight="bold" text-anchor="middle" fill="#1b7a3d">T</text>
+<path d="M410.0,450 L455.0,450 L455.0,542.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="424.0" y="444" font-size="14" font-weight="bold" text-anchor="middle" fill="#b3261e">F</text>
+<path d="M50.0,580 L80,580 L80,688.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="36.0" y="574" font-size="14" font-weight="bold" text-anchor="middle" fill="#1b7a3d">T</text>
+<path d="M260.0,580 L230,580 L230,688.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="274.0" y="574" font-size="14" font-weight="bold" text-anchor="middle" fill="#b3261e">F</text>
+<path d="M350.0,580 L380,580 L380,688.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="336.0" y="574" font-size="14" font-weight="bold" text-anchor="middle" fill="#1b7a3d">T</text>
+<path d="M560.0,580 L530,580 L530,688.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="574.0" y="574" font-size="14" font-weight="bold" text-anchor="middle" fill="#b3261e">F</text>
+<path d="M800.0,450 L755.0,450 L755.0,542.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="786.0" y="444" font-size="14" font-weight="bold" text-anchor="middle" fill="#1b7a3d">T</text>
+<path d="M1010.0,450 L1055.0,450 L1055.0,542.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="1024.0" y="444" font-size="14" font-weight="bold" text-anchor="middle" fill="#b3261e">F</text>
+<path d="M650.0,580 L680,580 L680,688.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="636.0" y="574" font-size="14" font-weight="bold" text-anchor="middle" fill="#1b7a3d">T</text>
+<path d="M860.0,580 L830,580 L830,688.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="874.0" y="574" font-size="14" font-weight="bold" text-anchor="middle" fill="#b3261e">F</text>
+<path d="M950.0,580 L980,580 L980,688.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="936.0" y="574" font-size="14" font-weight="bold" text-anchor="middle" fill="#1b7a3d">T</text>
+<path d="M1160.0,580 L1130,580 L1130,688.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="1174.0" y="574" font-size="14" font-weight="bold" text-anchor="middle" fill="#b3261e">F</text>
+<path d="M1700.0,320 L1505.0,320 L1505.0,412.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="1686.0" y="314" font-size="14" font-weight="bold" text-anchor="middle" fill="#1b7a3d">T</text>
+<path d="M1910.0,320 L2105.0,320 L2105.0,412.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="1924.0" y="314" font-size="14" font-weight="bold" text-anchor="middle" fill="#b3261e">F</text>
+<path d="M1400.0,450 L1355.0,450 L1355.0,542.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="1386.0" y="444" font-size="14" font-weight="bold" text-anchor="middle" fill="#1b7a3d">T</text>
+<path d="M1610.0,450 L1655.0,450 L1655.0,542.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="1624.0" y="444" font-size="14" font-weight="bold" text-anchor="middle" fill="#b3261e">F</text>
+<path d="M1250.0,580 L1280,580 L1280,688.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="1236.0" y="574" font-size="14" font-weight="bold" text-anchor="middle" fill="#1b7a3d">T</text>
+<path d="M1460.0,580 L1430,580 L1430,688.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="1474.0" y="574" font-size="14" font-weight="bold" text-anchor="middle" fill="#b3261e">F</text>
+<path d="M1550.0,580 L1580,580 L1580,688.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="1536.0" y="574" font-size="14" font-weight="bold" text-anchor="middle" fill="#1b7a3d">T</text>
+<path d="M1760.0,580 L1730,580 L1730,688.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="1774.0" y="574" font-size="14" font-weight="bold" text-anchor="middle" fill="#b3261e">F</text>
+<path d="M2000.0,450 L1955.0,450 L1955.0,542.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="1986.0" y="444" font-size="14" font-weight="bold" text-anchor="middle" fill="#1b7a3d">T</text>
+<path d="M2210.0,450 L2255.0,450 L2255.0,542.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="2224.0" y="444" font-size="14" font-weight="bold" text-anchor="middle" fill="#b3261e">F</text>
+<path d="M1850.0,580 L1880,580 L1880,688.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="1836.0" y="574" font-size="14" font-weight="bold" text-anchor="middle" fill="#1b7a3d">T</text>
+<path d="M2060.0,580 L2030,580 L2030,688.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="2074.0" y="574" font-size="14" font-weight="bold" text-anchor="middle" fill="#b3261e">F</text>
+<path d="M2150.0,580 L2180,580 L2180,688.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="2136.0" y="574" font-size="14" font-weight="bold" text-anchor="middle" fill="#1b7a3d">T</text>
+<path d="M2360.0,580 L2330,580 L2330,688.0" fill="none" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="2374.0" y="574" font-size="14" font-weight="bold" text-anchor="middle" fill="#b3261e">F</text>
+<line x1="80" y1="732.0" x2="1205.0" y2="857.0" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="230" y1="732.0" x2="1205.0" y2="857.0" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="380" y1="732.0" x2="1205.0" y2="857.0" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="530" y1="732.0" x2="1205.0" y2="857.0" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="680" y1="732.0" x2="1205.0" y2="857.0" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="830" y1="732.0" x2="1205.0" y2="857.0" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="980" y1="732.0" x2="1205.0" y2="857.0" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="1130" y1="732.0" x2="1205.0" y2="857.0" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="1280" y1="732.0" x2="1205.0" y2="857.0" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="1430" y1="732.0" x2="1205.0" y2="857.0" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="1580" y1="732.0" x2="1205.0" y2="857.0" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="1730" y1="732.0" x2="1205.0" y2="857.0" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="1880" y1="732.0" x2="1205.0" y2="857.0" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="2030" y1="732.0" x2="1205.0" y2="857.0" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="2180" y1="732.0" x2="1205.0" y2="857.0" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="2330" y1="732.0" x2="1205.0" y2="857.0" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="1205.0" y1="901.0" x2="1205.0" y2="961.0" stroke="#444" stroke-width="1.4" marker-end="url(#a)"/>
+<polygon points="1205.0,152.0 1310.0,190 1205.0,228.0 1100.0,190" fill="#fff4d6" stroke="#b8860b" stroke-width="1.5"/>
+<text x="1205.0" y="187.2" font-size="12" text-anchor="middle" font-weight="bold" fill="#1a1a1a">79</text>
+<text x="1205.0" y="201.2" font-size="12" text-anchor="middle" fill="#1a1a1a">student</text>
+<polygon points="605.0,282.0 710.0,320 605.0,358.0 500.0,320" fill="#fff4d6" stroke="#b8860b" stroke-width="1.5"/>
+<text x="605.0" y="317.2" font-size="12" text-anchor="middle" font-weight="bold" fill="#1a1a1a">80</text>
+<text x="605.0" y="331.2" font-size="12" text-anchor="middle" fill="#1a1a1a">amount &lt; 100</text>
+<polygon points="305.0,412.0 410.0,450 305.0,488.0 200.0,450" fill="#fff4d6" stroke="#b8860b" stroke-width="1.5"/>
+<text x="305.0" y="447.2" font-size="12" text-anchor="middle" font-weight="bold" fill="#1a1a1a">81</text>
+<text x="305.0" y="461.2" font-size="12" text-anchor="middle" fill="#1a1a1a">fromAccountBalance &lt; 1000</text>
+<polygon points="155.0,542.0 260.0,580 155.0,618.0 50.0,580" fill="#fff4d6" stroke="#b8860b" stroke-width="1.5"/>
+<text x="155.0" y="577.2" font-size="12" text-anchor="middle" font-weight="bold" fill="#1a1a1a">82</text>
+<text x="155.0" y="591.2" font-size="12" text-anchor="middle" fill="#1a1a1a">toAccountBalance &lt; 1000</text>
+<polygon points="455.0,542.0 560.0,580 455.0,618.0 350.0,580" fill="#fff4d6" stroke="#b8860b" stroke-width="1.5"/>
+<text x="455.0" y="577.2" font-size="12" text-anchor="middle" font-weight="bold" fill="#1a1a1a">88</text>
+<text x="455.0" y="591.2" font-size="12" text-anchor="middle" fill="#1a1a1a">toAccountBalance &lt; 1000</text>
+<polygon points="905.0,412.0 1010.0,450 905.0,488.0 800.0,450" fill="#fff4d6" stroke="#b8860b" stroke-width="1.5"/>
+<text x="905.0" y="447.2" font-size="12" text-anchor="middle" font-weight="bold" fill="#1a1a1a">95</text>
+<text x="905.0" y="461.2" font-size="12" text-anchor="middle" fill="#1a1a1a">fromAccountBalance &lt; 1000</text>
+<polygon points="755.0,542.0 860.0,580 755.0,618.0 650.0,580" fill="#fff4d6" stroke="#b8860b" stroke-width="1.5"/>
+<text x="755.0" y="577.2" font-size="12" text-anchor="middle" font-weight="bold" fill="#1a1a1a">96</text>
+<text x="755.0" y="591.2" font-size="12" text-anchor="middle" fill="#1a1a1a">toAccountBalance &lt; 1000</text>
+<polygon points="1055.0,542.0 1160.0,580 1055.0,618.0 950.0,580" fill="#fff4d6" stroke="#b8860b" stroke-width="1.5"/>
+<text x="1055.0" y="577.2" font-size="12" text-anchor="middle" font-weight="bold" fill="#1a1a1a">102</text>
+<text x="1055.0" y="591.2" font-size="12" text-anchor="middle" fill="#1a1a1a">toAccountBalance &lt; 1000</text>
+<polygon points="1805.0,282.0 1910.0,320 1805.0,358.0 1700.0,320" fill="#fff4d6" stroke="#b8860b" stroke-width="1.5"/>
+<text x="1805.0" y="317.2" font-size="12" text-anchor="middle" font-weight="bold" fill="#1a1a1a">110</text>
+<text x="1805.0" y="331.2" font-size="12" text-anchor="middle" fill="#1a1a1a">amount &lt; 100</text>
+<polygon points="1505.0,412.0 1610.0,450 1505.0,488.0 1400.0,450" fill="#fff4d6" stroke="#b8860b" stroke-width="1.5"/>
+<text x="1505.0" y="447.2" font-size="12" text-anchor="middle" font-weight="bold" fill="#1a1a1a">111</text>
+<text x="1505.0" y="461.2" font-size="12" text-anchor="middle" fill="#1a1a1a">fromAccountBalance &lt; 1000</text>
+<polygon points="1355.0,542.0 1460.0,580 1355.0,618.0 1250.0,580" fill="#fff4d6" stroke="#b8860b" stroke-width="1.5"/>
+<text x="1355.0" y="577.2" font-size="12" text-anchor="middle" font-weight="bold" fill="#1a1a1a">112</text>
+<text x="1355.0" y="591.2" font-size="12" text-anchor="middle" fill="#1a1a1a">toAccountBalance &lt; 1000</text>
+<polygon points="1655.0,542.0 1760.0,580 1655.0,618.0 1550.0,580" fill="#fff4d6" stroke="#b8860b" stroke-width="1.5"/>
+<text x="1655.0" y="577.2" font-size="12" text-anchor="middle" font-weight="bold" fill="#1a1a1a">118</text>
+<text x="1655.0" y="591.2" font-size="12" text-anchor="middle" fill="#1a1a1a">toAccountBalance &lt; 1000</text>
+<polygon points="2105.0,412.0 2210.0,450 2105.0,488.0 2000.0,450" fill="#fff4d6" stroke="#b8860b" stroke-width="1.5"/>
+<text x="2105.0" y="447.2" font-size="12" text-anchor="middle" font-weight="bold" fill="#1a1a1a">125</text>
+<text x="2105.0" y="461.2" font-size="12" text-anchor="middle" fill="#1a1a1a">fromAccountBalance &lt; 1000</text>
+<polygon points="1955.0,542.0 2060.0,580 1955.0,618.0 1850.0,580" fill="#fff4d6" stroke="#b8860b" stroke-width="1.5"/>
+<text x="1955.0" y="577.2" font-size="12" text-anchor="middle" font-weight="bold" fill="#1a1a1a">126</text>
+<text x="1955.0" y="591.2" font-size="12" text-anchor="middle" fill="#1a1a1a">toAccountBalance &lt; 1000</text>
+<polygon points="2255.0,542.0 2360.0,580 2255.0,618.0 2150.0,580" fill="#fff4d6" stroke="#b8860b" stroke-width="1.5"/>
+<text x="2255.0" y="577.2" font-size="12" text-anchor="middle" font-weight="bold" fill="#1a1a1a">132</text>
+<text x="2255.0" y="591.2" font-size="12" text-anchor="middle" fill="#1a1a1a">toAccountBalance &lt; 1000</text>
+<rect x="20.0" y="688.0" width="120" height="44" rx="4" fill="#e8f0fe" stroke="#3b6fd4" stroke-width="1.5"/>
+<text x="80" y="707.05" font-size="13" text-anchor="middle" font-weight="bold" fill="#1a1a1a">83</text>
+<text x="80" y="722.05" font-size="13" text-anchor="middle" fill="#1a1a1a">fp = 0.01</text>
+<rect x="170.0" y="688.0" width="120" height="44" rx="4" fill="#e8f0fe" stroke="#3b6fd4" stroke-width="1.5"/>
+<text x="230" y="707.05" font-size="13" text-anchor="middle" font-weight="bold" fill="#1a1a1a">85</text>
+<text x="230" y="722.05" font-size="13" text-anchor="middle" fill="#1a1a1a">fp = 0.005</text>
+<rect x="320.0" y="688.0" width="120" height="44" rx="4" fill="#e8f0fe" stroke="#3b6fd4" stroke-width="1.5"/>
+<text x="380" y="707.05" font-size="13" text-anchor="middle" font-weight="bold" fill="#1a1a1a">89</text>
+<text x="380" y="722.05" font-size="13" text-anchor="middle" fill="#1a1a1a">fp = 0.05</text>
+<rect x="470.0" y="688.0" width="120" height="44" rx="4" fill="#e8f0fe" stroke="#3b6fd4" stroke-width="1.5"/>
+<text x="530" y="707.05" font-size="13" text-anchor="middle" font-weight="bold" fill="#1a1a1a">91</text>
+<text x="530" y="722.05" font-size="13" text-anchor="middle" fill="#1a1a1a">fp = 0.025</text>
+<rect x="620.0" y="688.0" width="120" height="44" rx="4" fill="#e8f0fe" stroke="#3b6fd4" stroke-width="1.5"/>
+<text x="680" y="707.05" font-size="13" text-anchor="middle" font-weight="bold" fill="#1a1a1a">97</text>
+<text x="680" y="722.05" font-size="13" text-anchor="middle" fill="#1a1a1a">fp = 0.005</text>
+<rect x="770.0" y="688.0" width="120" height="44" rx="4" fill="#e8f0fe" stroke="#3b6fd4" stroke-width="1.5"/>
+<text x="830" y="707.05" font-size="13" text-anchor="middle" font-weight="bold" fill="#1a1a1a">99</text>
+<text x="830" y="722.05" font-size="13" text-anchor="middle" fill="#1a1a1a">fp = 0.0025</text>
+<rect x="920.0" y="688.0" width="120" height="44" rx="4" fill="#e8f0fe" stroke="#3b6fd4" stroke-width="1.5"/>
+<text x="980" y="707.05" font-size="13" text-anchor="middle" font-weight="bold" fill="#1a1a1a">103</text>
+<text x="980" y="722.05" font-size="13" text-anchor="middle" fill="#1a1a1a">fp = 0.025</text>
+<rect x="1070.0" y="688.0" width="120" height="44" rx="4" fill="#e8f0fe" stroke="#3b6fd4" stroke-width="1.5"/>
+<text x="1130" y="707.05" font-size="13" text-anchor="middle" font-weight="bold" fill="#1a1a1a">105</text>
+<text x="1130" y="722.05" font-size="13" text-anchor="middle" fill="#1a1a1a">fp = 0.0125</text>
+<rect x="1220.0" y="688.0" width="120" height="44" rx="4" fill="#e8f0fe" stroke="#3b6fd4" stroke-width="1.5"/>
+<text x="1280" y="707.05" font-size="13" text-anchor="middle" font-weight="bold" fill="#1a1a1a">113</text>
+<text x="1280" y="722.05" font-size="13" text-anchor="middle" fill="#1a1a1a">fp = 0.02</text>
+<rect x="1370.0" y="688.0" width="120" height="44" rx="4" fill="#e8f0fe" stroke="#3b6fd4" stroke-width="1.5"/>
+<text x="1430" y="707.05" font-size="13" text-anchor="middle" font-weight="bold" fill="#1a1a1a">115</text>
+<text x="1430" y="722.05" font-size="13" text-anchor="middle" fill="#1a1a1a">fp = 0.01</text>
+<rect x="1520.0" y="688.0" width="120" height="44" rx="4" fill="#e8f0fe" stroke="#3b6fd4" stroke-width="1.5"/>
+<text x="1580" y="707.05" font-size="13" text-anchor="middle" font-weight="bold" fill="#1a1a1a">119</text>
+<text x="1580" y="722.05" font-size="13" text-anchor="middle" fill="#1a1a1a">fp = 0.1</text>
+<rect x="1670.0" y="688.0" width="120" height="44" rx="4" fill="#e8f0fe" stroke="#3b6fd4" stroke-width="1.5"/>
+<text x="1730" y="707.05" font-size="13" text-anchor="middle" font-weight="bold" fill="#1a1a1a">121</text>
+<text x="1730" y="722.05" font-size="13" text-anchor="middle" fill="#1a1a1a">fp = 0.05</text>
+<rect x="1820.0" y="688.0" width="120" height="44" rx="4" fill="#e8f0fe" stroke="#3b6fd4" stroke-width="1.5"/>
+<text x="1880" y="707.05" font-size="13" text-anchor="middle" font-weight="bold" fill="#1a1a1a">127</text>
+<text x="1880" y="722.05" font-size="13" text-anchor="middle" fill="#1a1a1a">fp = 0.01</text>
+<rect x="1970.0" y="688.0" width="120" height="44" rx="4" fill="#e8f0fe" stroke="#3b6fd4" stroke-width="1.5"/>
+<text x="2030" y="707.05" font-size="13" text-anchor="middle" font-weight="bold" fill="#1a1a1a">129</text>
+<text x="2030" y="722.05" font-size="13" text-anchor="middle" fill="#1a1a1a">fp = 0.005</text>
+<rect x="2120.0" y="688.0" width="120" height="44" rx="4" fill="#e8f0fe" stroke="#3b6fd4" stroke-width="1.5"/>
+<text x="2180" y="707.05" font-size="13" text-anchor="middle" font-weight="bold" fill="#1a1a1a">133</text>
+<text x="2180" y="722.05" font-size="13" text-anchor="middle" fill="#1a1a1a">fp = 0.05</text>
+<rect x="2270.0" y="688.0" width="120" height="44" rx="4" fill="#e8f0fe" stroke="#3b6fd4" stroke-width="1.5"/>
+<text x="2330" y="707.05" font-size="13" text-anchor="middle" font-weight="bold" fill="#1a1a1a">135</text>
+<text x="2330" y="722.05" font-size="13" text-anchor="middle" fill="#1a1a1a">fp = 0.055</text>
+<rect x="1040.0" y="38.0" width="330" height="44" rx="22.0" fill="#eef7ee" stroke="#2e7d32" stroke-width="1.5"/>
+<text x="1205.0" y="57.2" font-size="12" text-anchor="middle" font-weight="bold" fill="#1a1a1a">75 (entry)</text>
+<text x="1205.0" y="71.2" font-size="12" text-anchor="middle" fill="#1a1a1a">amount, fromAccountBalance, toAccountBalance, student</text>
+<rect x="1040.0" y="857.0" width="330" height="44" rx="4" fill="#eef7ee" stroke="#2e7d32" stroke-width="1.5"/>
+<text x="1205.0" y="876.2" font-size="12" text-anchor="middle" font-weight="bold" fill="#1a1a1a">142</text>
+<text x="1205.0" y="890.2" font-size="12" text-anchor="middle" fill="#1a1a1a">fee = amount * fp</text>
+<rect x="1040.0" y="961.0" width="330" height="44" rx="22.0" fill="#eef7ee" stroke="#2e7d32" stroke-width="1.5"/>
+<text x="1205.0" y="980.2" font-size="12" text-anchor="middle" font-weight="bold" fill="#1a1a1a">144 (exit)</text>
+<text x="1205.0" y="994.2" font-size="12" text-anchor="middle" fill="#1a1a1a">return fee</text>
+<text x="40" y="30" font-size="16" font-weight="bold" fill="#1a1a1a">FeesCalculator.calculateTransferFee: control-flow graph (nodes = source line numbers, fp = feePercentage)</text>
+<text x="40" y="50" font-size="13" fill="#444">N = 34, E = 48, V(G) = E - N + 2 = 16. T = condition true, F = condition false.</text>
+</svg>
